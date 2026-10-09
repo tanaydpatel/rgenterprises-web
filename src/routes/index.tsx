@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ArrowRight, Award, Building2, CheckCircle2, ChevronRight, Clock3, Cog, Droplets, Factory, FlaskConical, Headphones, Mail, MapPin, Menu, Phone, Settings, ShieldCheck, Users, Wrench, X, Zap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import ceoPhoto from "@/assets/ceo-photo.jpeg.asset.json";
+import logo from "@/assets/rge-logo.png.asset.json";
 
 export const Route = createFileRoute("/")({
   component: Index,
@@ -42,7 +43,7 @@ function Index() {
     <div>
       <header className="site-header">
         <div className="site-container header-inner">
-          <a href="#home" className="wordmark" aria-label="RG Enterprises home"><strong>RGE</strong><span>ENTERPRISES</span></a>
+          <a href="#home" className="wordmark" aria-label="RG Enterprises home"><img src={logo.url} alt="R.G. Enterprises" width="78" height="43" /></a>
           <nav className="desktop-nav" aria-label="Main navigation">{navigation.map(([id, label]) => <a href={`#${id}`} key={id}>{label}</a>)}</nav>
           <Button asChild className="quote-button"><a href="#contact">Get Quote</a></Button>
           <Button variant="ghost" size="icon" className="mobile-menu-button" aria-label={menuOpen ? "Close menu" : "Open menu"} aria-expanded={menuOpen} onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <X /> : <Menu />}</Button>
