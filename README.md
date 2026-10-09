@@ -1,14 +1,30 @@
-# Welcome to your Lovable project
+# RG Enterprises 
+
+Replicate this website 
+
+https://www.rgenterprisesindia.com/
+
+RG ENTERPRISES INDIA PVT LTS 
+
+Add more Branch Office – Delhi Address 
+
+A-83, Second Floor, Pandav Nagar, Delhi – 110092.
+
+
+
+https://maps.google.com/?q=28.619888,77.283852
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://rg-enterprises.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/5b35d394-6659-40f7-be76-4c0ad900d5b9).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +36,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
